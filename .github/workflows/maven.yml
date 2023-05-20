@@ -30,7 +30,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-#     - name: Build with Maven
+#     - name: Build and analyze
 #       env:
 #          GITHUB_TOKEN: ${{ secrets.ISITOKEN}}
 #          SONAR_TOKEN: ${{ secrets.ISITOKENNYA}}
